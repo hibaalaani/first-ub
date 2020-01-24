@@ -1,0 +1,191 @@
+body{
+    margin: 0px;
+    width:100%
+
+}
+/* h1{
+    text-align: center;
+    margin: 10px auto;
+
+}
+#container{
+display: flex;
+/* width: 100%; */
+/* flex-direction: row;
+align-content: center;
+justify-content:space-between ;
+background-image: linear-gradient(to left top, #4c8ae7, #af7ad1, #de70a7, #eb777a, #dc8c59); /*url(/image/soccer_image3.jpeg)*/
+/* margin:0px auto;
+background-repeat: no-repeat;
+background-size: cover;
+height: 200px;
+} */ 
+/* .navbar{
+    /* width:40%; */
+    /* margin-right:0px; */
+    /* display: flex;
+    align-items: center;
+    justify-items: center;
+}  */
+div#container.cent{
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    color: black;
+    margin-left: 10px;
+
+}
+
+.navbar a{
+color: white;
+font-size: 1.15em;
+text-decoration: none;
+padding: 10px;
+
+
+}
+/* .container{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-content: center;
+
+} */
+.navbar a:hover{
+    color:blue;
+    background-color: white;
+}
+#header{
+    color: white;
+    margin: 50px;
+    text-transform: capitalize;
+    font-size: 1.12em;
+    width: 60%;
+}
+
+
+
+/* #frame.content{
+    width:90%;
+
+;
+} */
+div .content{
+    padding: 20px;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 40vh;
+    background-image: url(https://images.unsplash.com/photo-1546608235-3310a2494cdf?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80);
+}
+div.content p{
+    margin: 20px;
+    font-size: 1.3em;
+    color: white;
+ 
+    
+}
+.logo{
+    display: flex;
+    /* width: 90%; */
+    justify-content: center;
+    align-content: center;
+}
+.logo img{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+        width: 100px; 
+
+}
+.logo a img:hover{
+    width: 4em;
+}
+.pict{
+    width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+}
+#frame {
+    margin: 50px auto;
+    width: 640px;
+    height: 350px;
+    background:white;
+    box-shadow: inset 3px 3px 4px 2px #777, inset -5px -5px 4px 0px #000, inset 0 0 0 12px #444, 2px 8px 10px 0 rgba(0,0,0,0.8);
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-content: flex-start;
+  }
+  
+   #frame img {
+    margin: 20px;
+    border-top: 1px solid #888;
+    border-left: 1px solid #888;
+    border-bottom: 1px solid #aaa;
+    border-right: 1px solid #aaa;
+    width: 600px;
+    height: 310px;
+  }
+  
+  a.active{
+ color: black;
+ text-decoration: underline;
+ 
+  }
+  footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content:center ;
+    background-color: #00867d;
+    height: 10vh;
+    color: white;
+    font-size: 1.5em;
+    padding-top: 50px;
+    height: 30vh;
+    
+  }
+  footer a{
+ font-size: 1.6em;
+ color: white;
+ padding-right: 1em;
+  }
+  footer a:hover{
+   -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+   -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+   animation-name: example;
+   animation-duration: 4s;
+  }
+  @keyframes example {
+    from {color: red;}
+    to {color: yellow;}
+  }
+  div#header-h1{
+    background-image: url(../image/design2_3image1.png);
+    background-size: cover;
+    display:flex;
+    width: 100%;
+    height: 400px;
+    }
+    .topnav{
+    text-align: center;
+    font-size: 18px;
+    padding: 10px;
+    
+    display: flex;
+    background-color: #00867d;
+    justify-content: space-between;
+    }
+    .topnav a{
+        margin: 5px;
+        color:white
+    }
+    .topnav a:hover{
+      color: #f0bb2b;
+      font-size: 1.125em;
+    }
+    .main img{
+        width: 100vw;
+        opacity:0.7;
+       
+    }
