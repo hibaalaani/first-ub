@@ -51,7 +51,7 @@ p{
 }
 #header-h1{
     margin-bottom: 30px;
-    background-image: url(../image/soccer_image2.jpeg);
+    background-image: url(soccer_image2.jpeg);
   color: white;
     background-repeat: no-repeat;
     background-position: top;
@@ -81,10 +81,6 @@ color: white;
 }
 
 div.topnav a:hover{
-    /* color: white;
-    transform-origin: top(0.5turn);
-    background-color: #76b2e2; */
-
    animation-iteration-count: 4;
     animation-name: example;
     animation-duration: 4s;

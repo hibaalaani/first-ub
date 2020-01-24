@@ -117,7 +117,7 @@ input[type=submit]{
 
 }
 div#header-h1{
-    background-image: url(../image/design2_3image1.png);
+    background-image: url(design2_3image1.png);
     background-size: cover;
     display:flex;
     width: 100%;

@@ -39,9 +39,7 @@ justify-content: space-between;
 }
 .content{
 text-align: center;
-background-color:;
 padding: 20px;
-color: whi#393636te;
 }
 .content a{
   color: steelblue;
@@ -52,7 +50,6 @@ color: whi#393636te;
 /* Add padding to containers */
 .container {
     padding: 16px;
-    background-color: white;
   }
   
   /* Full-width input fields */
@@ -96,9 +93,7 @@ color: whi#393636te;
   
   /* Add a blue text color to links */
   a {
-    color: #00867d
-
-    ;
+    color: #00867d;
   }
   
   /* Set a grey background color and center the text of the "sign in" section */
@@ -133,12 +128,6 @@ font-size: 1em;
       text-decoration-line:none ;
       font-size:1.025em;
 
-  }
-
-  .navbar ul li a:hover{
-    color: #00867d
-
-    ;  
   }
   .main-img  img{
       width: 100%;
@@ -205,11 +194,7 @@ a.active{
     animation-name: example;
     animation-duration: 4s;
    }
-   /* @-webkit-keyframes example {
-    from {background-color: red;}
-    to {background-color: yellow;}
-  } */
- /* Standard syntax */
+  
 @keyframes example {
   from {color: red;}
   to {color: yellow;}
