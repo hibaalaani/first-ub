@@ -3,30 +3,7 @@ body{
     width:100%
 
 }
-/* h1{
-    text-align: center;
-    margin: 10px auto;
 
-}
-#container{
-display: flex;
-/* width: 100%; */
-/* flex-direction: row;
-align-content: center;
-justify-content:space-between ;
-background-image: linear-gradient(to left top, #4c8ae7, #af7ad1, #de70a7, #eb777a, #dc8c59); /*url(/image/soccer_image3.jpeg)*/
-/* margin:0px auto;
-background-repeat: no-repeat;
-background-size: cover;
-height: 200px;
-} */ 
-/* .navbar{
-    /* width:40%; */
-    /* margin-right:0px; */
-    /* display: flex;
-    align-items: center;
-    justify-items: center;
-}  */
 div#container.cent{
     display: flex;
     flex-direction: row;
@@ -44,13 +21,7 @@ padding: 10px;
 
 
 }
-/* .container{
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    align-content: center;
 
-} */
 .navbar a:hover{
     color:blue;
     background-color: white;
