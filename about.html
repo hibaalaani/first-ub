@@ -10,7 +10,7 @@
     <title>About Us</title>
 </head>
 <body>
-    <div class="w3-container">
+    <!-- <div class="w3-container"> -->
     <div id="container">
     <!-- <div id="header"> -->
 
@@ -24,10 +24,10 @@
              <a href="Parents-Regstration.html">Parents Registration</a>
               <a href="Rules&Policies.html">Rules&Policies</a></div>
           </div>  
-            <div id="header-h1">
+            <!-- <div id="header-h1">
           
                <!-- <img src="../image/design2_3image1.png" alt=""> -->
-              </div>
+              <!-- </div>
 
 
               <div class="main">
@@ -47,62 +47,20 @@
                             the generous volunteer time of parents and former league members</p>
                 
                         </div> 
-                <!-- <img src="https://images.unsplash.com/photo-1546608235-3310a2494cdf?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80"
+                 <img src="https://images.unsplash.com/photo-1546608235-3310a2494cdf?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80"
                  alt="play-ground"> -->
-              </div>
-<!--         
-    </div> 
-    <!-- <div id="container cent"><h1>NYSL Game Gallery</h1></div>
-        <!-- <div class="navbar">
-            <a href="../SPRINT/index.html">Home</a>
-            <a class="active" href="../SPRINT/about.html">About</a>
-            <a href="../SPRINT/Game-Info.html">Game Info</a>
-            <a href="../SPRINT/contact.html">Contact</a>
-           
-            <a href="../SPRINT/Registration.html">Registration</a>
-            <a href="../SPRINT/Rules&Policies.html">Rules&Policies</a>
-            <a   href="../SPRINT/Parents-Regstration.html">Parents Registration</a>
-        
-
-        </div> -->
-    <!-- <div class="logo">
-   <a href="https://www.google.com"><img  src="../image/nysl_logo.png" alt="logo" target="_blanket"></a> 
-</div> -->
-
-<!-- <div id="frame"> 
-    <div class="content">
-        
-    <p><strong>Mission</strong><br>To support young athletes living in Chicago's northside neighborhoods, who have an
-        interest in learning and playing soccer, with opportunities to learn and practice skills
-        related to the game of soccer, especially those skills related to team cooperation and
-        good sportsmanship</p>
-        <p><strong>Vision</strong><br>The Northside Youth Soccer League aspires to develop strong, well-rounded, and
-            mindful athletes through the building of character, self-discipline, and leadership</p>
-            <p><strong>General Info
-            </strong><br>The Northside Youth Soccer League was established in 1996 to provide athletes
-            residing in Chicago's northside neighborhood an environment to learn and play soccer.
-            To be a member of NYSL, you must be between the ages of 4-12 and reside in a
-            Chicago northside neighborhood. NYSL is run by a small, full-time staff, and relies on
-            the generous volunteer time of parents and former league members</p>
-
-        </div> 
 </div>
-
-<div class="pict">
-    
-        <div id="frame"> <img src="https://images.unsplash.com/photo-1527592913061-73c0e6e927c2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=649&q=80" alt=""></div>
-        <div id="frame">   <img src="../image/soccer_image1.jpeg" alt=""></div>
-        <div id="frame">  <img src="../image/soccer_image2.jpeg" alt=""></div>
-        <div id="frame">   <img src="../image/soccer_image3.jpeg" alt=""></div>
-        <div id="frame"> <img src="https://images.unsplash.com/photo-1568938216273-80d445c836d0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt=""></div>
-        <div id="frame">    <img src="https://images.unsplash.com/photo-1526864947482-382a25347d51?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt=""></div>
-
-    <div id="frame">
-    <img src="../image/design2_image1.jpg" alt=""> -->
-    <!-- <img src="http://fillmurray.com/g/200/110"/> -->
-  <!-- </div>
-</div>  -->
-<footer>
+<video autoplay muted loop id="myVideo">
+    <source src="http://cdnapi.kaltura.com/p/1741931/sp/174193100/playManifest/entryId/1_t8bfvsxs/format/url/protocol/https/flavorParamId/487081" type="video/mp4">
+        Your prowser does not support HTML5 VIDEO.
+</video>
+<div class="content">
+    <h1>Vedio Player BG</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.Illo aspernatur voluptates 
+        cupiditate atque in aliquid neque maiores. Voluptate odio veritatis soluta, aut p</p>
+        <button id="myBtn" onclick="myFunction()">Pause</button>
+</div>
+<!-- <footer>
 
     <div>
       <a href=""><i class="fab fa-facebook" ></i></a>
@@ -111,8 +69,20 @@
       <div>Copyright policy 2020  <i class="far fa-futbol"></i></div>
       
     
-  </footer>
-</div>
-</div>
+  </footer> -->
+<script>
+var video=document.getElementById("myVideo");
+var btn=document.getElementById("myBtn");
+function myFunction(){
+    if(video.paused){
+        video.play();
+        btn.innerHTML="pause";
+
+    }else{
+        video.pause();
+        btn.innerHTML="play"
+    }
+}
+</script>
 </body>
 </html>

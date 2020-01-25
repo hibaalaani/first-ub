@@ -33,21 +33,6 @@ padding: 10px;
     font-size: 1.12em;
     width: 60%;
 }
-
-
-
-/* #frame.content{
-    width:90%;
-
-;
-} */
-div .content{
-    padding: 20px;
-    background-attachment: fixed;
-    background-size: cover;
-    height: 40vh;
-    background-image: url(https://images.unsplash.com/photo-1546608235-3310a2494cdf?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80);
-}
 div.content p{
     margin: 20px;
     font-size: 1.3em;
@@ -131,13 +116,13 @@ div.content p{
     from {color: red;}
     to {color: yellow;}
   }
-  div#header-h1{
+  /* div#header-h1{
     background-image: url(../image/design2_3image1.png);
     background-size: cover;
     display:flex;
     width: 100%;
     height: 400px;
-    }
+    } */
     .topnav{
     text-align: center;
     font-size: 18px;
@@ -160,3 +145,36 @@ div.content p{
         opacity:0.7;
        
     }
+    #myVideo {
+        display: inline-block;
+
+        
+        right: 0;
+        bottom: 0;
+        min-width: 100vw; 
+        min-height: 80vh;
+      }
+      
+      .content {
+        position: fixed;
+        bottom: 0;
+        background: rgba(0, 0, 0, 0.5);
+        color: #f1f1f1;
+        width: 100%;
+        padding: 20px;
+      }
+      
+      #myBtn {
+        width: 200px;
+        font-size: 18px;
+        padding: 10px;
+        border: none;
+        background: #000;
+        color: #fff;
+        cursor: pointer;
+      }
+      
+      #myBtn:hover {
+        background: #ddd;
+        color: black;
+      }
