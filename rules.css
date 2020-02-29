@@ -55,7 +55,7 @@ p {
     list-style-type: square;
 }
 
-#header-h1 {
+div#header-h1 {
     background-image: url(design2_3image1.png);
     background-size: cover;
     display: flex;
@@ -81,13 +81,14 @@ p {
     font-size: 2em;
 }
 
-div.topnav {
-    padding: 5px 0;
-    float: right;
-    width: 55%;
+.topnav {
     text-align: center;
-    font-size: 1.12em;
+    font-size: 18px;
+    padding: 10px;
 
+    display: flex;
+    background-color: #00867d;
+    justify-content: space-between;
 }
 
 div.topnav a {
@@ -155,4 +156,24 @@ footer a:hover {
     to {
         color: yellow;
     }
+}
+
+.topnav {
+    text-align: center;
+    font-size: 18px;
+    padding: 10px;
+
+    display: flex;
+    background-color: #00867d;
+    justify-content: space-between;
+}
+
+.topnav a {
+    margin: 5px;
+    color: white
+}
+
+.topnav a:hover {
+    color: #f0bb2b;
+    font-size: 1.125em;
 }
