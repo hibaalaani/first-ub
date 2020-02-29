@@ -10,79 +10,46 @@
     <title>About Us</title>
 </head>
 <body>
-    <!-- <div class="w3-container"> -->
+   
     <div id="container">
-    <!-- <div id="header"> -->
-
-        <div class="topnav">
-            <div class="top1"><a class="active" href="index.html">Home</a>
+        <div class="brand">Melon</div>
+        <div class="nav-link">
+            <a class="active" href="index.html">Home</a>
               <a href="about.html">About</a>
-              <a href="contact.html">Contact</a></div>
-            
-            <div class="top2">  <a  href="Game-Info.html">Game-Info</a>
+              <a href="contact.html">Contact</a>
+            <a  href="Game-Info.html">Game-Info</a>
               <a href="Registration.html">Registration</a>
-             <a href="Parents-Regstration.html">Parents Registration</a>
-              <a href="Rules&Policies.html">Rules&Policies</a></div>
-          </div>  
-            <!-- <div id="header-h1">
-          
-               <!-- <img src="../image/design2_3image1.png" alt=""> -->
-              <!-- </div>
+             <!-- <a href="Parents-Regstration.html">Parents Registration</a> -->
+              <a href="Rules&Policies.html">Rules&Policies</a>
+            </div>  
+            <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+    </div>
+    
+<section>
 
-
-              <div class="main">
-                <div class="content">
-        
-                    <p><strong>Mission</strong><br>To support young athletes living in Chicago's northside neighborhoods, who have an
-                        interest in learning and playing soccer, with opportunities to learn and practice skills
-                        related to the game of soccer, especially those skills related to team cooperation and
-                        good sportsmanship</p>
-                        <p><strong>Vision</strong><br>The Northside Youth Soccer League aspires to develop strong, well-rounded, and
-                            mindful athletes through the building of character, self-discipline, and leadership</p>
-                            <p><strong>General Info
-                            </strong><br>The Northside Youth Soccer League was established in 1996 to provide athletes
-                            residing in Chicago's northside neighborhood an environment to learn and play soccer.
-                            To be a member of NYSL, you must be between the ages of 4-12 and reside in a
-                            Chicago northside neighborhood. NYSL is run by a small, full-time staff, and relies on
-                            the generous volunteer time of parents and former league members</p>
-                
-                        </div> 
-                 <img src="https://images.unsplash.com/photo-1546608235-3310a2494cdf?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80"
-                 alt="play-ground"> -->
-</div>
-<video autoplay muted loop id="myVideo">
-    <source src="http://cdnapi.kaltura.com/p/1741931/sp/174193100/playManifest/entryId/1_t8bfvsxs/format/url/protocol/https/flavorParamId/487081" type="video/mp4">
-        Your prowser does not support HTML5 VIDEO.
-</video>
-<div class="content">
-    <h1>Vedio Player BG</h1>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.Illo aspernatur voluptates 
-        cupiditate atque in aliquid neque maiores. Voluptate odio veritatis soluta, aut p</p>
-        <button id="myBtn" onclick="myFunction()">Pause</button>
-</div>
+</section>    
 <!-- <footer>
-
     <div>
+        <a href=""><i class="fab fa-twitter-square"></i></a>
       <a href=""><i class="fab fa-facebook" ></i></a>
       <a href=""><i class="fab fa-instagram"></i></a>
       </div>
       <div>Copyright policy 2020  <i class="far fa-futbol"></i></div>
-      
-    
-  </footer> -->
-<script>
-var video=document.getElementById("myVideo");
-var btn=document.getElementById("myBtn");
-function myFunction(){
-    if(video.paused){
-        video.play();
-        btn.innerHTML="pause";
 
-    }else{
-        video.pause();
-        btn.innerHTML="play"
-    }
+</footer> -->
+<script>
+const navSlide=()=>{
+    const burger=document.querySelector(".burger");
+    const nav=document.querySelector(".nav-link");
+    burger.addEventListener("click",()=>{
+        nav.classList.toggle("nav-active");
+    })
 }
+navSlide();
 </script>
 </body>
 </html>
